@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Medida</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="Azul">Sistemas de medida en HTML</h1>
+    <hr>
+    <h1 class="Pastel">Unidades absolutas</h1>
+    <table>
+        <tr>
+            <td>
+                <p><b>Unidad</b></p>
+            </td>
+            <td>
+                <p><b>Definición</b></p>
+            </td>
+            <td>
+                <p><b>Ejemplo</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>px</p>
+            </td>
+            <td>
+                <p>Unidad más usada en pantallas. Significa "Pixeles"</p>
+            </td>
+            <td>
+                <p id="Ejemplo1">50px</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>pt</p>
+            </td>
+            <td>
+                <p>Usado más que todo en impresión. Equivale a 1/72 de pulgada.</p>
+            </td>
+            <td>
+                <p id="Ejemplo2">50pt</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>cm, mm, in...</p>
+            </td>
+            <td>
+                <p>Medidas físicas reales (centímetros, milímetros, pulgadas...).</p>
+            </td>
+            <td>
+                <p id="Ejemplo3">2cm</p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="Pastel">Unidades relativas</h1>
+    <table>
+        <tr>
+            <td>
+                <p><b>Unidad</b></p>
+            </td>
+            <td>
+                <p><b>Definición</b></p>
+            </td>
+            <td>
+                <p><b>Ejemplo</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>%</p>
+            </td>
+            <td>
+                <p>Relativo al tamaño del elemento padre. Cuando no hay elemento padre, utiliza el tamaño de la pantalla del dispositivo. Por ejemplo, width: 50% es la mitad del ancho del contenedor.</p>
+            </td>
+            <td>
+                <p id="Ejemplo4">60%</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>em</p>
+            </td>
+            <td>
+                <p>Relativo al tamaño de fuente del elemento padre. Si el font-size del padre es 16px, entonces 1em = 16px.</p>
+            </td>
+            <td>
+                <p id="Ejemplo5">2em (Arial)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>rem</p>
+            </td>
+            <td>
+                <p>Relativo al tamaño de fuente raíz (<html>). Es muy útil para mantener consistencia en todo el documento.</p>
+            </td>
+            <td>
+                <p id="Ejemplo6">3rem</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>vw (viewport width)</p>
+            </td>
+            <td>
+                <p>1vw = 1% del ancho de la ventana del navegador.</p>
+            </td>
+            <td>
+                <p id="Ejemplo7">5vw</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>vh (viewport height)</p>
+            </td>
+            <td>
+                <p>1vh = 1% de la altura de la ventana del navegador.</p>
+            </td>
+            <td>
+                <p id="Ejemplo8">5vh</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>vmin</p>
+            </td>
+            <td>
+                <p>El menor valor entre vw y vh.</p>
+            </td>
+            <td>
+                <p id="Ejemplo9">5vmin</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>vmax</p>
+            </td>
+            <td>
+                <p>El mayor valor entre vw y vh.</p>
+            </td>
+            <td>
+                <p id="Ejemplo10">5vmax</p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="Pastel">Otras unidades varias</h1>
+    <table>
+        <tr>
+            <td>
+                <p><b>Unidad</b></p>
+            </td>
+            <td>
+                <p><b>Definición</b></p>
+            </td>
+            <td>
+                <p><b>Ejemplo</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>ch</p>
+            </td>
+            <td>
+                <p>Ancho del carácter "0" en la fuente actual, útil para layouts basados en texto.</p>
+            </td>
+            <td>
+                <p id="Ejemplo11">10ch</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>ex</p>
+            </td>
+            <td>
+                <p>Altura de la letra "x" en la fuente actual.</p>
+            </td>
+            <td>
+                <p id="Ejemplo2">10ex</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

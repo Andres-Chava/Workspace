@@ -1,0 +1,94 @@
+* {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            background-image: url(fondomain.jpg);
+        }
+        #main {
+            height: 85vh;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 100px;
+        }
+        #contenedor {
+            border: 1px solid black;
+            width: 70vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 14%;
+            margin-top: 25px;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.15);
+            background-image: none;
+        }
+        #logo {
+            width: 50px;
+            height: 50px;
+            background-image: none;
+            margin-right: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #header {
+            background-color: black;
+            background-image: none;
+            display: flex;
+            flex-direction: row;
+            color: white;
+            font-size: 50px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-weight: 600;
+            padding: 5px 0px 5px 0px;
+        }
+
+        #footer {
+            background-color: black;
+            background-image: none;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 5px 0px 5px 0px;
+        }
+
+        p {
+            background-image: none;
+            max-width: 60vw;
+            margin-bottom: 5px;
+        }
+        h1 {
+            background-image: none;
+        }
+        table {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            margin-bottom: 5px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 3px 5px 3px 5px;
+        }
+        #fotogoogle {
+            width: 500px;
+            height: 200px;
+            background-image: none;
+        }

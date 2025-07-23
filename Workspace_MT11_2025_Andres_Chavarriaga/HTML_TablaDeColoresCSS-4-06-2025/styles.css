@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+#AzulOscuro {
+    background-color: #353cc4;
+}
+
+#Purpura {
+    background-color: #401e9e;
+}
+
+#VerdeLima {
+    background-color: #02e30a;
+}
+
+#VerdeClaro {
+    background-color: #63ff69;
+    color: black;
+}
+
+#Amarillo {
+    background-color: #ffe605;
+    color: black;
+}
+
+#AmarilloClaro {
+    background-color: #fff385;
+    color: black;
+}
+
+#Rojo {
+    background-color: #ff0d00;
+}
+
+#Naranja {
+    background-color: #ff6d29;
+}
+
+#Rosado {
+    background-color: #d921bd;
+}
+
+#AzulRoyal {
+    background-color: #0022ff;
+}
+
+#Turquesa {
+    background-color: #00ffe1;
+    color: black;
+}
+
+#MoradoGris {
+    background-color: #baaae6;
+}
+
+#Magenta {
+    background-color: #c11bde;
+}
+
+#VerdeCeviche {
+    background-color: #8bcf4c;
+}
+
+#RojoNaranja {
+    background-color: #f0280a;
+}
+
+#Mangobiche {
+    background-color: #aff00a;
+    color: black;
+}

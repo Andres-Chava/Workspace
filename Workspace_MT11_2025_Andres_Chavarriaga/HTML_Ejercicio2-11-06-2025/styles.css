@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Positivo {
+    border: 5px solid;
+}
+
+.Negativo {
+    border: 5px dotted;
+}
+
+#Alegria {
+    background-color: #ffe031;
+    border: 20px solid;
+    border-color: #ffd900;
+}
+
+#Calma {
+    background-color: #87CEEB;
+    border-color: #59c6f1;
+}
+
+#Confianza {
+    background-color: #000080;
+    color: white;
+    border: 10px solid;
+    border-color: #00004e;
+}
+
+#Esperanza {
+    background-color: #4adf4a;
+    border-color: #23db23;
+}
+
+#Amor {
+    background-color: #ff4545;
+    border-top: 15px solid;
+    border-bottom: 15px solid;
+    border-color: #FF0000;
+}
+
+#Tristeza {
+    background-color: #1E3A5F;
+    color: white;
+    border-color: #0b54b4;
+}
+
+#Enojo {
+    background-color: #8B0000;
+    color: white;
+    border: dotted 10px #bd0000;
+}
+
+#Miedo {
+    background-color: #4B4B4B;
+    color: white;
+    border-right: 10px dotted;
+    border-left: 10px dotted;
+    border-color: #383838;
+}
+
+#Soledad {
+    background-color: black;
+    color: white;
+    border-bottom: 10px dotted;
+    border-right: 10px dotted;
+    border-color: rgb(54, 54, 54);
+}
+
+td {
+    width: 200px;
+    height: 200px;
+}
+
+#Contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}

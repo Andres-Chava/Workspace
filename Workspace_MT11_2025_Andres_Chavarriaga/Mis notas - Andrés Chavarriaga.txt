@@ -1,0 +1,216 @@
+Nombre: Andrés Camilo Chavarriaga Guerrero
+Formato recomendado: Ajuste de línea activado, Arial 12 Normal, Zoom 100%.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 30 de Abril de 2025
+
+- https://github.com/AydeeRenteria/ortografia2
+
+	De este proyecto puedo sacar el diseño del juego.
+
+- https://github.com/CRISSSCROSSS/COMUNICACION-2-PRIMARIA-ORTOGRAFIA
+
+	De este proyecto puedo sacar la forma de evaluar, es decir, las actividades
+	que se encuentran en él.
+
+- https://github.com/Pratiksha1302/Pizza-Burger-Mania
+
+	De este proyecto puedo sacar las animaciones.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 7 de Mayo de 2025
+
+- ¿Qué es HTTP?
+
+	- Una solicitud HTTP (Hypertext Transfer Protocol, o en español "Protocolo de Transferencia de HiperTexto) es un mensaje que un cliente, como un navegador, envía a un servidor para 	pedir un recurso. Incluye varios elementos clave: la versión de HTTP (como HTTP/1.1 o HTTP/2), una URL que indica la dirección del recurso, un método que define la acción (como 	GET o POST), encabezados con información adicional (como el tipo de navegador o autenticación), y un cuerpo opcional que puede contener datos, especialmente en solicitudes 	como POST.
+
+- ¿Qué hace el usuario cuando se loguea?
+
+	- Cuando el usuario se loguea (envía el formulario de inicio de sesión), el navegador envía los datos del usuario a través de una solicitud HTTP (POST). Después, hay una breve pausa 	y dependiendo de la forma en la que ses desarrolla la página, puede reemplazar el formulario y mostrar los contenidos de la página o redireccionar a otra que igualmente muestre 	estos contenidos. De ambas formas, el usuario ya habrá iniciado sesión y podrá explorar la página desde la vista de usuario.
+
+- ¿Qué hace el servidor cuando un usuario se loguea?
+
+	- Cuando un usuario se loguea, el servidor recibe la solicitud con el nombre de usuario y la contraseña. Luego, busca ese usuario en su base de datos y compara y verifica la 	contraseña recibida con la almacenada, que se encuentra encriptada. Si coinciden, el servidor crea una sesión o genera un token de autenticación que identifica al usuario, y lo envía 	de vuelta al navegador (por ejemplo, en una cookie). A partir de ahí, el servidor reconoce al usuario en las siguientes solicitudes. Si las credenciales son incorrectas, responde con un 	error y no permite el acceso.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 9 de Mayo de 2025
+
+- Consultar qué son los elementos del diagrama entidad relación.
+
+	Los elementos del diagrama entidad-relación son elementos que representan los datos de una base de datos. Las entidades son cosas u objetos del mundo real que tienen existencia 		independiente, como personas, empleados, clientes; y se clasifican en entidad fuerte, que tiene existencia propia, y entidad debil, que es aquella que depende de otra entidad. Los 		atributos son las propiedades de las entidades y se representan con óvalos, se dividen en: Atributos clave, que identifican de forma única a cada instancia; el atributo compuesto, que 		es un atributo formado por varios atributos; el atributo multivaluado, que puede tener más de un valor; el atributo derivado, se puede calcular a partir de otros (como la edad, puede ser 		calculada a partir de la fecha de nacimiento). Las relaciones, representan la asociación entre 2 o más entidades y se representa con un rombo, y se clasifican según la cantidad de 		relaciones que tienen (1:1, 1:N, M:N). Y, finalmente, los padres e hijos de datos, que se representan por un triángulo.
+
+- Consultar qué son las claves primarias, las claves foraneas y las claves compuestas.
+
+	La claves primarias son identificadores que nos permiten identificar a cada elemento de una tabla en una base de datos de manera independiente y única, pero que es una 		característica en común, por ejemplo, en una tabla de clientes la clave primaria sería "ID_Cliente". Las claves foraneas son claves que referencia la clave primaria de otra tabla, por 		ejemplo, en una tabla de pedidos, la clave foranea podría ser ID_Cliente, pues estaría referenciando la clave primaria "ID_Cliente" de la tabla de clientes. Las claves compuestas son 		claves primarias que necesitan 2 o más atributos, pues uno solo no sería suficiente, por ejemplo, en una table de DetallePedidos la clave compuesta sería ID_Pedido y ID_Producto, 		pues ambas son necesarias para identificar una entidad en esta tabla.
+
+- Consultar los tipos de datos en SQL.
+
+	Existen los tipos de datos númericos, de cadenas de texto, de fecha y tiempo, de datos lógicos (booleano), binarios y de identificadores universales.
+
+- Consultar las 3 formas normales de bases de datos.
+
+	- 1FN: Los datos se encuentran en forma atomica, es decir, no se pueden descomponer ni repetirse.
+	- 2FN: Todos los datos de la tabla van a depender de la clave primaria.
+	- 3FN: Ningun dato depende de otro dato transitivo.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 14 de Mayo de 2025
+
+- Tipos de datos en mySQL, dando una expicación con sus propias palabras. Máximo 2 renglones por tipo de dato.
+
+1. Numéricos:
+
+	- Enteros
+		- TINYINT: Entero muy pequeño (1 byte). Rango: -128 a 127 (sin signo: 0 a 255).
+		- SMALLINT: Entero pequeño (2 bytes). Rango: -32,768 a 32,767.
+		- MEDIUMINT: Entero medio (3 bytes).
+		- INT / INTEGER: Entero normal (4 bytes).
+		- BIGINT: Entero grande (8 bytes).
+
+	- Decimales y de punto flotante
+		- DECIMAL(p,s) / NUMERIC(p,s): Números exactos con precisión fija. Ideal para dinero.
+		- FLOAT(p): Punto flotante de precisión simple (menos preciso, más rápido).
+		- DOUBLE / DOUBLE PRECISION: Punto flotante de doble precisión.
+
+	- Otros
+		- BIT(n): Valor binario (n bits).
+		- BOOL / BOOLEAN: Alias de TINYINT(1) (0 = falso, 1 = verdadero).
+
+2. Fechas y Tiempos:
+
+	- DATE: Fecha (formato YYYY-MM-DD).
+	- DATETIME: Fecha y hora (YYYY-MM-DD HH:MM:SS).
+	- TIMESTAMP: Similar a DATETIME, pero cambia con el tiempo del servidor.
+	- TIME: Solo la hora (HH:MM:SS).
+	- YEAR: Año (formato YYYY).
+
+3. Cadenas de Texto:
+
+	- Longitud fija
+		- CHAR(n): Cadena de longitud fija (rellena con espacios si falta).
+
+	- Longitud variable
+		- VARCHAR(n): Cadena de longitud variable (hasta 65,535 bytes).
+
+	- Textos largos
+		- TINYTEXT: Hasta 255 caracteres.
+		- TEXT: Hasta 65,535 caracteres.
+		- MEDIUMTEXT: Hasta 16 millones de caracteres.
+		- LONGTEXT: Hasta 4 mil millones de caracteres.
+
+4. Binarios: 
+
+	- TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB: Igual que los TEXT, pero para datos binarios (archivos, imágenes, etc.).
+
+5. Tipos Especiales:
+
+	- ENUM('valor1', 'valor2', ...): Lista de valores posibles. Solo se puede guardar uno.
+	- SET('a', 'b', ...): Lista de valores posibles. Se pueden seleccionar varios.
+
+- Listar los tipos de datos que va a usar mi proyecto.
+
+	Vamos a usar los tinytext, datetime, smallint y float
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 21 de Mayo del 2025
+
+Código SQL:
+
+	- CREATE TABLE grupo ( id_grupo INT AUTO_INCREMENT PRIMARY KEY, nombre_grupo VARCHAR(100) NOT NULL );
+
+	- CREATE TABLE estudiante ( id_estudiante INT PRIMARY KEY, nombre VARCHAR(100) NOT NULL, apellido VARCHAR(100) NOT NULL, id_grupo INT, FOREIGN KEY (id_grupo) 	  	   REFERENCES grupo(id_grupo) );
+
+	- CREATE TABLE salon ( id_salon INT PRIMARY KEY, numero VARCHAR(10) NOT NULL, ubicacion VARCHAR(100) );
+
+	- CREATE TABLE aseo ( id_aseo INT AUTO_INCREMENT PRIMARY KEY, id_estudiante INT NOT NULL, id_salon INT NOT NULL, fecha DATE NOT NULL, rol VARCHAR(50) NOT 	  	   NULL, FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante), FOREIGN KEY (id_salon) REFERENCES salon(id_salon) );
+
+
+	- INSERT INTO grupo (nombre_grupo) VALUES ('sexto');
+	- INSERT INTO grupo (nombre_grupo) VALUES ('septimo');
+	- INSERT INTO grupo (nombre_grupo) VALUES ('octavo');
+	- INSERT INTO grupo (nombre_grupo) VALUES ('noveno');
+
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (00, 'Sara', 'Liceth', 4);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (11, 'Sarai', 'Munera', 4);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (22, 'Ana', 'Gomez', 4);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (33, 'Manuela', 'Rendon', 4);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (44, 'Andres', 'Chavarriaga', 4);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (55, 'Daniel', 'Fonseca', 3);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (66, 'Andres', 'Cardenas', 3);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (77, 'Santiago', 'Amariles', 3);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (88, 'Angie', 'Rendon', 3);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (99, 'Juan', 'Agudelo', 3);
+	- INSERT INTO estudiante (id_estudiante, nombre, apellido, id_grupo) VALUES (12, 'Valentina', 'Giraldo', 2), (13, 'Thomas', 'Usuga', 2), (14, 'Juan', 'Duque', 2), (15, 'Daniela', 'Torres', 2), 		(16, 'Miguel', 'Villa', 2), (17, 'Simon', 'Avila', 1), (18, 'Jeronimo', 'Arroyave', 1), (19, 'Juan', 'Salgado', 1), (20, 'Dylan', 'Ocampo', 1), (21, 'Johan', 'Vasquez', 1);
+
+	- INSERT INTO salon (id_salon, numero, ubicacion) VALUES (1, '10-101', 'Bloque 10 primer piso'), (2, '10-201', 'Bloque 10 segundo piso'), (3, '23-401', 'Bloque 23 cuarto piso'), (4, '28		-401', 'Bloque 28 cuarto piso'), (5, '34-304', 'Bloque 34 tercer piso'), (6, '30-505', 'Bloque 30 quinto piso');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 28 de Mayo del 2025
+
+- Consultar 3 formas de inclusión de estilos de HTML
+
+	1. Se enlaza un archivo de estilos CSS al archivo HTML mediante <link rel="stylesheet" href="ejemplo.css">, en el que se encuentran los respectivos estilos.
+	2. En la etiqueta a la que se quiera aplicar los estilos, se le coloca styles="los-estilos;". Por ejemplo: <div styles="width: 500px;"></div>
+	3. Se agrega una etiqueta en el archivo HTML de <styles></styles>, dentro de esta etiqueta se podrán colocar los estilos en formato CSS.
+	La 1 y la 3 deben ser escritas en el <head>.
+
+- ¿Qué son las direcciones relativas de archivos y como funcionan cuando se incluye una imagen o cualquier otro archivo al HTML?
+	
+	Las direcciones relativas de archivos son las rutas que se utilizan para referenciar otros archivos en relación al archivo que las llama. Para salir de la carpeta en la que se encuentra 		para acceder a otra ruta, se utiliza el "../" Por ejemplo, si una imagen está en la misma carpeta que el HTML, se llamaría así <img src="ejemplo">, pero si estuviera en otra carpeta 	anterior a la carpeta que contiene el HTML, sería <img src="../ejemplo">.
+
+- ¿Qué son los elementos en bloque (block) y elementos en linea (inline) en HTML?
+
+	- Los elementos en bloque son los elementos que ocupan todo el ancho disponible en su contenedor, y comienzan en una línea nueva. Por ejemplo: div, p, h1, section, article...
+	- Los elementos en línea son los elementos que solo ocupan el espacio necesario, y si es posible, se alínean uno junto a otro en la misma linea. Por ejemplo: span, a, strong, b, img...
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 06 de Junio del 2025
+
+Consultar que es el modelo de caja en CSS (BOXMODEL)
+	
+	Es el concepto que describe como se estructuran y muestran los elementos en una página HTML. Cada elemento es como una caja que consta de varias capas, tales capas son:
+
+	1. Contenido (content): El área donde se muestra el texto, imágenes o cualquier contenido del elemento.
+
+	2. Relleno (padding): Espacio entre el contenido y el borde. Es el relleno que tiene la caja de contenido.
+
+	3. Borde (border): La línea que rodea el padding y el contenido.
+
+	4. Margen (margin): El espacio externo que separa la caja de otros elementos alrededor.
+
+¿Qué sistemas de medida se usan en CSS?
+
+	Unidades absolutas: Son unidades fijas y no dependen del tamaño de la pantalla o del contenedor.
+
+		- px (píxeles): Unidad más común, representa un punto en la pantalla.
+
+		- pt (puntos): Usado en impresión, 1pt = 1/72 de pulgada.
+
+		- cm (centímetros): Medida física en centímetros.
+
+		- mm (milímetros): Medida física en milímetros.
+
+		- in (pulgadas): 1in = 2.54 cm.
+
+	Unidades relativas: Se adaptan según el contexto, lo que las hace muy útiles para diseños responsivos.
+
+		- % (porcentaje): Relativo al tamaño del elemento padre. Por ejemplo, width: 50% es la mitad del ancho del contenedor.
+
+		- em: Relativo al tamaño de fuente del elemento padre. Si el font-size del padre es 16px, entonces 1em = 16px.
+
+		- rem: Relativo al tamaño de fuente raíz (<html>). Es muy útil para mantener consistencia en todo el documento.
+
+		- vw (viewport width): 1vw = 1% del ancho de la ventana del navegador.
+
+		- vh (viewport height): 1vh = 1% de la altura de la ventana del navegador.
+
+		- vmin: El menor valor entre vw y vh.
+
+		- vmax: El mayor valor entre vw y vh.
+
+	Otros
+
+		- ch: Ancho del carácter "0" en la fuente actual, útil para layouts basados en texto.
+
+		- ex: Altura de la letra "x" en la fuente actual.
+
+
+
+
+
+
