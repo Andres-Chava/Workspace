@@ -209,6 +209,52 @@ Consultar que es el modelo de caja en CSS (BOXMODEL)
 
 		- ex: Altura de la letra "x" en la fuente actual.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fecha: 30 de Julio del 2025
+
+- ¿Qué es un framework CSS en diseño web?
+
+	Un framework CSS es un conjunto de herramientas, archivos y convenciones predefinidas que ayudan a los desarrolladores a crear sitios web de manera más rápida y consistente. 	Incluye estilos ya definidos para elementos HTML comunes (botones, formularios, menús, grids, etc.) y facilita la creación de diseños responsivos, adaptables a distintos tamaños de 	pantalla.
+
+	Ventajas:
+
+	- Ahorra tiempo de desarrollo.
+
+	- Fomenta la consistencia visual.
+
+	- Incluye componentes reutilizables.
+
+	- Muchos vienen con utilidades JavaScript también.
+
+- ¿Qué es Bootstrap en diseño web?
+
+	Bootstrap es uno de los frameworks CSS y JavaScript más populares para el diseño de sitios web responsivos y móviles. Fue creado por Twitter y ahora es un proyecto de código 	abierto. Proporciona un sistema de grid (rejilla), estilos para componentes como botones, formularios, alertas, barras de navegación, y utilidades para tipografía y espaciado.
+
+	Características clave:
+
+	- Sistema de diseño basado en grid de 12 columnas.
+
+	- Estilos predefinidos y personalizables.
+
+	- Compatible con todos los navegadores modernos.
+
+	- Incluye componentes JavaScript como sliders, modales, tooltips, etc.	
+
+- Identificar 2 sitios hechos con Bootstrap, listarlos e inspeccionar la linea de código donde es claro que estos sitios usan Boostrap.
+
+	https://www.ielasnieves.edu.co/
+
+	.py-2 {						bootstrap.css:7819
+ 	   padding-top: 0.5rem !important;
+	   padding-bottom: 0.5rem !important;
+	}
+
+	
+	https://www.wappalyzer.com/technologies/ui-frameworks/bootstrap/
+
+	.v-application .mt-n3 {				 bootstrap/:6
+	   margin-top: -12px !important;
+	}
 
 
 
