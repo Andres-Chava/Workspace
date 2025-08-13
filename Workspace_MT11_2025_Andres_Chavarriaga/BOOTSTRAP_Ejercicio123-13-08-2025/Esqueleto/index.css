@@ -1,0 +1,31 @@
+.btn-verde {
+    background-color: #00e600;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-verde:hover {
+    background-color: #00cc00;
+    color: white;
+}
+
+.navbar {
+    background: #4c14ac;
+}
+
+.card {
+    border-bottom: 5px solid #00e600;
+}
+
+.card-title {
+    color: #9393e2;
+}
+
+.section-titulo {
+    color: #4c14ac;
+    font-weight: bold;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #00e600;
+}
