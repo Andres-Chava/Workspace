@@ -1,0 +1,12 @@
+.estudiante {
+    background-color: darkgray;
+}
+
+.apellido {
+    display: inline;
+}
+
+.nombre {
+    display: inline;
+    font-size: large;
+}
