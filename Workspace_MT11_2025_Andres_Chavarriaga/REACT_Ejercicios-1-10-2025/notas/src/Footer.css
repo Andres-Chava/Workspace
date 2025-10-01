@@ -1,0 +1,8 @@
+    .footer {
+        background-color: rgb(47, 179, 255);
+        color: black;
+        text-align: center;
+        padding: 3px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
